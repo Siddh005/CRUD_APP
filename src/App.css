@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.table{
+  color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+}
+.header{
+  color: red;
+  display: flex;
+  padding:5px 10px;
+}
+.container{
+  padding:10px;
+}
+.main_container{
+  max-width: 700px;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.useritem{
+  display: flex;
+}
+.username,.usermail{
+  margin: 0;
+  width:150px;
+}
+.tableheader{
+  border-bottom: 1px solid white;
+}
+.w-full text-center ,th , td {
+  
+    border: 3px solid white;
+    border-collapse: collapse;
+  }
